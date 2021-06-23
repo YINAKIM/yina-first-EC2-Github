@@ -17,7 +17,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @Entity
 public class User extends BaseTimeEntity {
-
+//구글 로그인을 위한 도메인
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

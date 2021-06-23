@@ -8,3 +8,7 @@ application-real-oauth.properties
 
 build
 out
+
+
+# google 로그인 oauth client ignore
+appplication-oauth.properties
